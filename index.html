@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Andres Alfonso</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar grid--container">
+            <a class="navbar__logo" href="#"><i class='bx bx-chevrons-up'></i>^ndrés ^lfonso</a>
+            <div id="nav" class="navbar__menu">
+                <a href="#close"><i class='bx bx-x btn__close navbar__icon'></i></a>
+                <ul class="navbar__list">
+                    <li class="navbar__item"><a class="navbar__link" href="#home">Home</a></li>
+                    <li class="navbar__item"><a class="navbar__link" href="#about">About me</a></li>
+                    <li class="navbar__item"><a class="navbar__link" href="#projects">Portfolio</a></li>
+                    <li class="navbar__item"><a class="navbar__link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <a  id="nav" href="#nav" class="navbar__btn--menu btn__open navbar__icon">
+                <div></div>
+                <div></div>
+                <div></div>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="home">
+            <div class="home__container grid--container">
+                <div class="home__photo">
+                    <picture class="home__photo--profile">
+                        <img src="/img/portfolio-img.png" alt="profile photo">
+                    </picture>
+                </div>
+                <article class="home__container-text">
+                    <div class="home__introduction">
+                        <h1>I'm Andres Alfonso. <br><span>A web developer</span></h1>
+                        <h2>based in Colombia.
+                        </h2>
+                        <p>I'm starting on the path of web development and UI/UX design. <br> I will never stop loving the innovations and projects that the future brings</p>
+                    </div>
+                </article>  
+            </div> 
+        </section>
+        <section id="about" class="about section">
+            <h2 class="title__1">About me</h2>
+            <h3 class="about__subtitle">!Hello, I'm Andres Alfonso</h3>
+            <p class="about__text">I'm a freelance developer and designer web, I have the necessary experience to create great projects taking into account each part of the process.</p>        
+            <div class="about__button">
+                <button class="btn btn--primary" type="button">Descarga CV</button>
+            </div>
+        </section>  
+        <section id="skillset" class="skillset">
+            <div class="skillset__principal-box">
+                <h3 class="title__1">Skillset</h3>
+                <div>
+                    <div class="skillset__container">
+                        <h4 class=" skillset__title skillset__title">Frontend</h4>
+                        <div class="skillset__card--container">
+                            <div class="skillset__card--item">
+                                <i class='bx bxl-javascript skillset__card--icon'></i>
+                                <p>JavaScript</p>
+                            </div>
+                            <div class="skillset__card--item">
+                                <i class='bx bxl-html5 skillset__card--icon skillset__card--icon' ></i>
+                                <p>HTML</p>
+                            </div>
+                            <div class="skillset__card--item">
+                                <i class='bx bxl-css3 skillset__card--icon' ></i>
+                                <p>Css</p>
+                            </div>
+                            <div class="skillset__card--item">
+                                <i class='bx bxl-react skillset__card--icon' ></i>
+                                <p>React</p>
+                            </div>
+                            <div class="skillset__card--item">
+                                <i class='bx bxl-github skillset__card--icon' ></i>
+                                <p>Git-hub</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skillset__container">
+                        <h4 class=" skillset__title skillset--title">Backend</h4>
+                        <div>
+                            <div class="skillset__card--item">
+                                <i class='bx bxl-nodejs skillset__card--icon' ></i>
+                                <p>Node Js</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skillset__container">
+                        <h4 class=" skillset__title skillset--title">Mobile</h4>
+                        <div>
+                            <div class="skillset__card--item">
+                                <i class='bx bxl-android skillset__card--icon' ></i>
+                                <p>Kotlin</p>
+                            </div>
+                            <div class="skillset__card--item">
+                                <i class='bx bxl-react skillset__card--icon' ></i>
+                                <p>React-Native</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="philosophy">
+            <article class="philosophy__container-1">
+                <h2 class="philosophy__title">Philosophy & values</h2>
+                <p class="philosophy__text">I think everyone wants the same thing - relationship with humanity, peace with the metaphysical, and experience with the universe. I try to grasp these things with my values: creativity, honesty, respect, & hospitality</p>
+                <a href="#" class="philosophy__link">Chech my Linkedin</a>
+            </article>
+            <picture class="philosophy__container-2">
+                <source media="(min-width:1000px )" srcset="/img/medium-meeting.jpg">
+                <img src="/img/small-meeting.jpg" alt="Is a parnership meeting picture">
+            </picture>
+        </section>
+        <section class="services">
+            <h2 class="services__title title__1">My services</h2>
+            <div class="services__container">
+                <div class="services__box c6 btn">
+                    <div class="services__box--placeicon">
+                        <a href=""><i class='bx bx-edit '></i></a>
+                    </div>    
+                    <h3 class="section__title">CREATIVE DESIGN</h3>
+                    <p>Always up to date with market trends</p>
+                </div>
+                <div class="services__box c1 btn">
+                    <div>
+                        <a href="#"><i class='bx bxs-flag-alt' ></i></a>
+                    </div>    
+                    <h3>BRANDING</h3>
+                    <p>Brand image consultancy</p>
+                </div>
+                <div class="services__box c2 btn">
+                    <div>
+                        <a href="#"><i class='bx bx-desktop' ></i></a>
+                    </div>    
+                    <h3>USER INTERFACE</h3>
+                    <p>Nice interaction for all</p>
+                </div>
+                <div class="services__box c3 btn">
+                    <div>
+                        <a href="#"><i class='bx bxs-user-voice' ></i></a>
+                    </div>    
+                    <h3>USER EXPERIENCE</h3>
+                    <p>Always connecting user experience</p>
+                </div>
+                <div class="services__box c4 btn">
+                    <div>
+                        <a href=""><i class='bx bx-code-alt' ></i></a>
+                    </div>    
+                    <h3>CLEAN CODE</h3>
+                    <p>scalable projects thanks to clean code</p>
+                </div>
+                <div class="services__box c5 btn">
+                    <div>
+                        <a href=""><i class='bx bx-help-circle'></i></a>
+                    </div>    
+                    <h3>FAST SUPORT</h3>
+                    <p>Committed to my projects, I offer you constant advice</p>
+                </div>
+            </div>
+        </section>
+        <section  id="contact" class="contact">
+            <h2 class="title__1 ">Contact me</h2>
+            <div class="contact__container">
+                <div class="contact__data">
+                    <div class="contact__data--box">
+                        <a href="#" class="contact__data--icon">
+                            <i class='bx bxs-user-check' ></i><span>Andrés Alfonso</span>
+                        </a>
+                        <a href="#" class="contact__data--icon">
+                            <i class='bx bx-phone-call' ></i><span> +57-313-456-7890</span>
+                        </a>
+                        <a id="mail" href="mailto:juanchox197@gmail.com" class="contact__data--icon"><i class='bx bxl-gmail' ></i><span>juanchox197@gmail.com</span>
+                        </a>
+                        <a href="#" class="contact__data--icon">
+                            <i class='bx bx-current-location' ></i><span>Ubaté, Colombia</span>
+                        </a>
+                    </div>
+                    <ul class="contact__social">
+
+
+                        <li class="contact__social--item">
+                            <a href="#"><i class='bx bxl-linkedin contact__social--icon' ></i></a></li>
+                        <li class="contact__social--item">
+                            <a href="#"><i class='bx bxl-instagram contact__social--icon' ></i></a></li>
+                        <li class="contact__social--item">
+                            <a href="#"><i class='bx bxl-facebook contact__social--icon' ></i></a></li>
+                    </ul>
+                </div>
+                <div class="contact__data-form">
+                    <h3 class="contact__form-title">Send me a mesage</h3>
+                    <form id="form" class="contact__form-container">
+                        <div class="contact__form-group">
+                            <label for="name" class="contact__form-label">Name</label>
+                            <input type="text" id="name" name="name" class="contact__form-input">
+                        </div>
+                        <div class="contact__form-group">
+                            <label for="subject" class="contact__form-label">Subject</label>
+                            <input type="text" id="subject" name="subject" class="contact__form-input">
+                        </div>
+                        <div class="contact__form-group">
+                            <label for="message" class="contact__form-label">Message</label>
+                            <textarea name="message" id="message" cols="30" rows="10" class="contact__form-input"></textarea>
+                        </div>
+                        <div class="contact__form-button">
+                           <button class="btn btn--primary" type="submit" >Send</button> 
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+    </footer>
+    <script>
+        const formulario = document.querySelector('#form')
+        const sendForm = document.querySelector('#mail')
+  
+        formulario.addEventListener('submit', handleSubmit)
+  
+        function handleSubmit(e) {
+          e.preventDefault()
+          const form = new FormData(this)
+          sendForm.setAttribute('href', `juanchox197@gmail.com?subject=${form.get('name')} - ${form.get('subject')}&body=${form.get('message')}`)
+          sendForm.click()
+        }
+      </script>
+</body>
+</html>
